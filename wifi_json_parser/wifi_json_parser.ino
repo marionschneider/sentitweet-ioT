@@ -3,9 +3,9 @@
 
 
 
-const char* ssid     = "BELL402";      // SSID of local network
-const char* password = "32F6A795";   // Password on local network
-String APIKEY = "32F6A795"; // necessary if your Api isn't public ( copy your read API key for Thingspeak connection )
+const char* ssid     = "YOUR WIFI NAME";      // SSID of local network
+const char* password = "YOUR WIFI PASSWORD";   // Password on local network
+String APIKEY = "YOUR THINGSPEAK STRING API KEY"; // necessary if your Api isn't public ( copy your read API key for Thingspeak connection )
 
 
 
