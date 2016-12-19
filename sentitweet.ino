@@ -19,11 +19,11 @@ Adafruit_ST7735 tft = Adafruit_ST7735(TFT_CS,  TFT_DC, TFT_RST);
 #define TFT_SCLK 3   // D5
 #define TFT_MOSI 4   // D7
 
-const char* ssid     = "iPhone de marionschl";//               ___ WIFI GET
-const char* password = "1Ma2rion3"; 
+const char* ssid     = "YOUR WIFI NAME";//               ___ WIFI GET
+const char* password = "YOUR WIFI PASSWORD"; 
 
 unsigned long myChannelNumber = 195890;  //       ___ THINGSPEAK
-const char * myReadAPIKey = "MDUNYG2CBBKSNBGO";// ___ READ METHOD
+const char * myReadAPIKey = "YOUR THINGSPEAK READ API KEY";// ___ READ METHOD (only needed if not public channel)
 
 WiFiClient client; // wifi get
 char servername[]="api.thingspeak.com";
@@ -95,7 +95,7 @@ void loop() {
 void getData() //client function to send/receive GET request data.
 {
   if (client.connect(servername, 80)) {  //starts client connection, checks for connection
-    client.println("GET /channels/195890/fields/2.json?results=1");
+    client.println("GET /channels/195890/fields/2.json?results=1"); //!! REPLACE 195890 WITH YOUR CHANNEL NUMBER 
     client.println("Host: api.thingspeak.com");
     client.println("User-Agent: ArduinoWiFi/1.1");
     client.println("Connection: close");
