@@ -13,6 +13,10 @@ For the screen also the Libary from Adafruit. ( the pin numbers are in the therm
 
 https://github.com/adafruit/Adafruit-ST7735-Library
 
+Parsing Data from Thingspeak Json format url to Arduino is done using ArduinoJson Libary, you will need to download it.
+
+https://github.com/bblanchon/ArduinoJson
+
 The twitter account related to the artwork is @sentitweeet.
 
 Material used for the project is : TFT 1.8 screen, Adafruit Thermal Printer Guts, Wemos Mini.
