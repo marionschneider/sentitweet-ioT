@@ -23,4 +23,4 @@ Material used for the project: TFT 1.8 screen, Adafruit Thermal Printer Guts, We
 
 You can get the code for the node.js app part of the project in another repository called sentitweet.
 
-Have fun !!! Send me pictures
+Have fun !!! 
