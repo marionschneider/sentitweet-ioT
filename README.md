@@ -20,3 +20,7 @@ https://github.com/bblanchon/ArduinoJson
 The twitter account related to the artwork is @sentitweeet.
 
 Material used for the project: TFT 1.8 screen, Adafruit Thermal Printer Guts, Wemos Mini, wires, a breadbord, a 7.5v 2.5 Amp DC adaptor ( for the printer).
+
+You can get the code for the node.js app part of the project in another repository called sentitweet.
+
+Have fun !!! Send me pictures
