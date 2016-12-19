@@ -28,13 +28,13 @@ Adafruit_ST7735 tft = Adafruit_ST7735(TFT_CS,  TFT_DC, TFT_RST);
 //Adafruit_ST7735 tft = Adafruit_ST7735(TFT_CS, TFT_DC, TFT_MOSI, TFT_SCLK, TFT_RST);
 ///////////////////////////////////////////////////////////////////////////////////////////
 
-char ssid[] = "BELL402"; // your network SSID (name)
-char pass[] = "32F6A795"; // your network password
+char ssid[] = "YOUR WIFI NAME"; // your network SSID (name)
+char pass[] = "YOUR WIFI PASSWORD"; // your network password
 
 WiFiClient client;
 
 unsigned long myChannelNumber = 195890;  // your channel number
-const char * myReadAPIKey = "MDUNYG2CBBKSNBGO";  // your read api key
+const char * myReadAPIKey = "PASTE YOUR READ API KEY";  // your read api key
 
 void setup() {
 Serial.begin(9600);
