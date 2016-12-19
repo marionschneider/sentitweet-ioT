@@ -1,5 +1,5 @@
 
-********///////// ESP8266 - ADAFRUIT THERMAL PRINTER *********///////////////
+/////////******** ESP8266 - ADAFRUIT THERMAL PRINTER *********///////////////
 
 /*Please note that the printer needs a lot of power, there is no way it will
 function correctly if you don't plug it to the wall (even the guts version)
@@ -38,7 +38,7 @@ void printTweet () {
   printer.boldOff();
 
   delay(20000);
-  printer.println(F("RT @McKelvie: If you're using art from comics to illustrate your list of writers in comics, credit the artists, yeah?"));
+  printer.println(F("what you want to print goes here"));
   printer.timeoutSet(2000);
   printer.setLineHeight(); // Reset to default
   printer.justify('L');
